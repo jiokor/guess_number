@@ -1,6 +1,6 @@
 import random
 rndnum = random.randint(1,101)
-print('Попробуйте угадать число))')
+print('Попробуйте угадать число от 1 до 100))')
 while True:
     gs = int(input("Введите число: "))
     if gs > rndnum:
@@ -10,4 +10,3 @@ while True:
     else:
         break
 print("Отличная интуиция! Вы угадали число :)")
-    
